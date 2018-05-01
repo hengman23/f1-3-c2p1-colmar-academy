@@ -1,0 +1,697 @@
+html {
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 100px 0px 25px 0px;
+  color: cococo;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: cococo;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: cococo;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.2;
+  padding-right: 15%;
+}
+
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #8AA29E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: cococo;
+}
+
+.left {
+  width: 60%;
+  padding: 32px 20px 32px 24px;
+}
+
+.right {
+  width: 40%;
+  padding: 32px 24px 32px 20px;
+}
+
+.side {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  height: auto;
+  border-left: 1px #F1EDEE solid;
+  padding: 16px;
+}
+
+.side:hover {
+  background-color: foffo;
+}
+
+.side-img {
+  width: 35%;
+  height: auto;
+}
+
+.side-txt {
+  padding-left: 16px;
+}
+
+
+/*   HEADER   */
+
+.mobilenav {
+  display: none;
+}
+
+header {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 64px;
+  padding: 0px 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.logolink {
+  color: black;
+}
+
+.logolink:hover {
+  color: black;
+  opacity: .75;
+}
+
+.logo span {
+  font-weight: 400;
+  opacity: .5;
+}
+
+.logo-img {
+  padding-right: 5px;
+}
+
+nav a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding-right: 16px;
+}
+
+/*   BANNER 1   */
+
+#mbanner {
+  display: none;
+}
+
+#banner {
+  display: flex;
+  background-color: #F1EDEE;
+}
+
+#banner .banner-img {
+  display: block;
+  width: 100%;
+}
+
+#banner h3 {
+  margin-bottom: 25px;
+  margin-right: 100px;
+  line-height: 1.4;
+}
+
+.button {
+  background-color: #8AA29E;
+  margin-bottom: 33%;
+  padding: 8px;
+  width: 25%;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: foffo;
+}
+
+.button a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+/*   BANNER 2   */
+
+#mlearn {
+  display: none;
+}
+
+#learn {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+#learn .banner-img {
+  display: block;
+  margin: 16px auto 0;
+  width: 100%;
+}
+
+#learn h2 {
+  margin: 32px 0px 24px 0px;
+}
+
+#learn span {
+  line-height: 2;
+  opacity: .5;
+}
+
+#learn h4, p {
+  padding-bottom: 10px;
+}
+
+/*   BANNER 3   */
+
+.mcourse {
+  display: none;
+}
+
+.course {
+  background-color: cococo;
+  padding: 50px;
+}
+
+.course h2 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px;
+  background-color: gray;
+  padding-bottom: 25px;
+}
+
+.section p {
+  padding: 5px 16px;
+}
+
+.section h4 {
+  padding: 16px 16px 0px 16px;
+}
+
+.section .c {
+  text-transform: uppercase;
+  padding: 5px 16px;
+}
+
+#software .img-bg {
+  background-image:url("../media/course-software.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+#computer-art .img-bg {
+  background-image:url("../media/course-computer-art.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+#design .img-bg {
+  background-image:url("../media/course-design.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+#data .img-bg {
+  background-image:url("../media/course-data.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+#business .img-bg {
+  background-image:url("../media/course-business.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+#marketing .img-bg {
+  background-image:url("../media/course-marketing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+/*   BANNER 4   */
+
+.mthesis {
+  display: none;
+}
+
+.thesis {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.content {
+  display: flex;
+}
+
+.thesis h2 {
+  text-align: center;
+}
+
+.thesis .content {
+  display: flex;
+}
+
+video {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.content .left h4 {
+  padding: 24px 0 16px 0;
+}
+
+.content .side h4, p {
+  padding-bottom: 10px;
+}
+
+/*   FOOTER   */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  border-top: 1px #F1EDEE solid;
+}
+
+.footer p {
+  padding: 0;
+  margin: 0;
+}
+
+
+@media only screen
+and (max-width: 950px) {
+
+  .left, .right {
+    height: auto;
+    padding-bottom: 0px;
+  }
+
+  #banner {
+    padding-bottom: 50px;
+    height: 400px;
+  }
+
+  h1 {
+    margin: 0px 0px 25px 0px;
+  }
+
+  footer {
+    margin-top: 25px;
+  }
+
+}
+
+@media only screen
+and (max-width: 900px) {
+
+  .side {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    height: auto;
+    border-left: 1px #F1EDEE solid;
+    padding-right: 0px;
+  }
+
+
+  .side-img {
+    width: 50%;
+    height: auto;
+  }
+
+  .side-txt {
+    padding-left: 16px;
+  }
+
+  .side p {
+    padding-right: 0;
+  }
+
+}
+
+@media only screen
+and (max-width: 875px) {
+
+  #banner {
+    padding-bottom: 1%;
+  }
+}
+
+@media only screen
+and (max-width: 825px) {
+
+  #banner {
+    padding-bottom: 0;
+  }
+
+}
+
+@media only screen
+and (max-width: 770px) {
+  /*   UNIVERSAL STYLES   */
+  h1 {
+    margin: 32px 16px;
+  }
+
+  .left, .right {
+    width: 100%;
+    padding: 32px 16px;
+  }
+
+  .side {
+    display: flex;
+    height: auto;
+    border: none;
+    padding: 16px;
+  }
+
+  .side-img {
+    width: 35%;
+    height: auto;
+  }
+
+  .side-txt {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 16px;
+  }
+
+  /*   HEADER   */
+  header {
+    display: none;
+  }
+
+  .mobilenav {
+    display: flex;
+    overflow: hidden;
+    height: 64px;
+    padding: 0px 24px;
+  }
+
+  .mobilenav nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  /*   BANNER 1   */
+  #banner {
+    display: none;
+  }
+
+  #mbanner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F1EDEE;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 32px;
+  }
+
+  #mbanner .banner-img {
+    display: block;
+    max-width: 100%;
+  }
+
+  #mbanner h3 {
+    margin: 0px 16px;
+    line-height: 1.4;
+  }
+
+  .button {
+    margin: 16px;
+    padding: 15px;
+    width: 15%;
+  }
+
+  /*   BANNER 2   */
+  #learn {
+    display: none;
+  }
+
+  #mlearn {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+  }
+
+  #mlearn .side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+    #mlearn img {
+      display: block;
+      width: 75%;
+      margin: 0;
+  }
+
+    #mlearn h4, p, a {
+      padding: 0px;
+      line-height: 1.5;
+  }
+
+  /*   BANNER 3   */
+  .course {
+    padding: 25px;
+  }
+
+  .course h2 {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .gallery {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin: 15px;
+    background-color: grey;
+    padding-bottom: 25px;
+  }
+
+  #software .img-bg {
+    height: 150px;
+    background-position: center;
+  }
+
+  #computer-art .img-bg {
+    height: 150px;
+    background-position: center;
+  }
+
+  #design .img-bg {
+    height: 150px;
+    background-position: center;
+  }
+
+  #data .img-bg {
+    height: 150px;
+    background-position: center;
+  }
+
+  #business .img-bg {
+    height: 150px;
+    background-position: center;
+  }
+
+  #marketing .img-bg {
+    height: 150px;
+    background-position: center;
+  }
+
+  /*   BANNER 4  */
+  .thesis {
+    display: none;
+  }
+
+  .mthesis {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 16px;
+  }
+
+  .mthesis h2 {
+    padding-bottom: 16px;
+  }
+
+  video {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .mthesis h4 {
+    font-size: 1.75rem;
+    padding-top: 10px;
+  }
+}
+
+@media only screen
+and (max-width: 470px) {
+
+    .mobilenav nav {
+      justify-content: space-between;
+    }
+
+    .button {
+      width: 25%;
+    }
+
+  /*   BANNER 3   */
+  .course {
+    display: none;
+  }
+
+  .mcourse {
+    display: flex;
+    flex-direction: column;
+    background-color: foffo;
+  }
+
+  .mcourse h2 {
+    text-align: center;
+    padding: 32px 0 27px 0;
+  }
+
+  .gallery {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 16px 32px 16px;
+  }
+
+  .gallery a {
+    width: 100%;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 5px 0px;
+  }
+  .section h4 {
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 35px 0;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+  }
+
+  .img-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #software .img-bg {
+    background-position: 20%;
+    height: auto;
+  }
+
+  #computer-art .img-bg {
+    background-position: 20%;
+    height: auto;
+  }
+
+  #design .img-bg {
+    background-position: 40%;
+    height: auto;
+  }
+
+  #data .img-bg {
+    background-position: 20%;
+    height: auto;
+  }
+
+  #business .img-bg {
+    background-position: 20%;
+    height: auto;
+  }
+
+  #marketing .img-bg {
+    background-position: 5%;
+    height: auto;
+  }
+
+  /*  FOOTER  */
+  footer nav {
+    display: none;
+}
